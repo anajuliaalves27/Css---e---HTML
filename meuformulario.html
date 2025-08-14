@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Completo</title>
+</head>
+<body>
+    <section id="form-section">
+        <h2 class="form-title">Formulário de Cadastro</h2>
+        <form id="cadastro-form" action="#" method="post">
+            
+            <div class="form-group">
+                <label for="nome" class="form-label">Nome completo:</label><br>
+                <input type="text" id="nome" name="nome" class="form-input" required><br>
+            </div>
+         </p>
+            <div class="form-group">
+                <label for="email" class="form-label">E-mail:</label><br>
+                <input type="email" id="email" name="email" class="form-input" required><br>
+            </div>
+         </p>
+            <div class="form-group">
+                <label for="telefone" class="form-label">Telefone:</label><br>
+                <input type="tel" id="telefone" name="telefone" class="form-input" placeholder="(00) 00000-0000"><br>
+            </div>
+          </p>
+            <div class="form-group">
+                <label for="data-nascimento" class="form-label">Data de nascimento:</label><br>
+                <input type="date" id="data-nascimento" name="data-nascimento" class="form-input"><br>
+            </div>
+          </p>
+            <div class="form-group">
+                <label for="Gênero" class="form-label">Gênero:</label><br>
+                <select id="Gênero" name="Gênero" class="form-select"><br>
+                    <option value="">Selecione</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="outro">Outro</option>
+                    <option value="prefiro-nao-dizer">Prefiro não dizer</option>
+                </select>
+            </div>
+          </p>
+            <div class="form-group">
+                <label for="endereco" class="form-label">Endereço:</label><br>
+                <input type="text" id="endereco" name="endereco" class="form-input"><br>
+            </div>
+          </p>
+            <div class="form-group">
+                <label for="cidade" class="form-label">Cidade:</label><br>
+                <input type="text" id="cidade" name="cidade" class="form-input"><br>
+            </div>
+          </p>
+            <div class="form-group">
+                <label for="estado" class="form-label">Estado:</label><br>
+                <select id="estado" name="estado" class="form-select"><br>
+                    <option value="">Selecione</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="BA">Bahia</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="Outro">Outro</option>
+                </select>
+            </div>
+           </p>
+            <div class="form-group">
+                <label for="mensagem" class="form-label">Mensagem / Observações:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="5" class="form-textarea"></textarea><br>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Aceita receber novidades por e-mail?</label><br>
+                <input type="radio" id="sim" name="novidades" value="sim"><br>
+                <label for="sim">Sim</label><br>
+                <input type="radio" id="nao" name="novidades" value="nao"><br>
+                <label for="nao">Não</label><br>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="termos" name="termos" required>
+                <label for="termos">Li e aceito os termos de uso</label><br>
+                </p>
+                 <button id="Enviar">Enviar</button>
+                 <button id="Cancelar">Cancelar</button><br>
+                 
+               <p>Não tem conta? <a href="meuformulario.html">Cadastre-se</a></p>
+            </div>
+         </p>
+        </form>
+    </section>
+</body>
+</html>

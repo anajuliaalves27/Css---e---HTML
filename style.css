@@ -1,0 +1,163 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white(127, 178, 223);
+    margin: 0;
+    padding: 0;
+}
+
+#Paragrafos{
+   margin:15px 0px;
+   padding: 10px 15px;
+   color: blue;
+   border-radius: 10px;
+}
+
+#titulo{
+    color: yellow;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+#Subtitulo{
+  color: green;
+  margin: 15px 0;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+li{
+  color: red;
+  margin: 5px 0;
+  padding: 10;
+  border-radius: 10px;
+}
+
+
+
+#caixa1 { 
+    color: lightblue; 
+    margin: 10px 0; 
+    padding: 8px; 
+    border-radius: 10px;
+}
+
+#caixa2 { 
+    color: lightpink; 
+    margin: 10px 0; 
+    padding: 8px; 
+    border-radius: 10px;
+}
+
+#Parágrafo-com-mesma-família-de-fonte{ 
+    color: lightpink; 
+    margin: 10px 0; 
+    padding: 8px; 
+    border-radius: 10px;
+}
+
+#negrito{ 
+    color: lightpink; 
+    margin: 10px 0; 
+    padding: 8px; 
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* 7. Texto centralizado */
+#centralizado { 
+    text-align: center; 
+    margin: 20px 0; 
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* 8. Links diferentes */
+#google { 
+    margin-right: 15px; 
+    color: orange; 
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#youtube {
+     color: purple;
+ }
+
+/* 9. Classes de estilo de texto */
+.negrito { 
+    font-weight: bold; 
+    color: black; 
+    margin: 5px 0; 
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.italico { 
+    font-style: italic; 
+}
+
+.sublinhado { 
+    text-decoration: underline; 
+}
+
+/* 10. Imagens */
+img { 
+    border: 3px solid black; 
+    margin: 10px; 
+    padding: 5px; 
+    border-radius: 10px;
+}
+
+/* 11. Parágrafo dentro da div */
+div p { 
+    color: blue; font-weight: bold; 
+
+}
+
+/* 12. Dois parágrafos diferentes */
+.primeiro {
+     color: blue; 
+    }
+.segundo { 
+    color: green; 
+    }
+
+/* 13. Fonte Arial */
+#tituloArial {
+     font-family: Arial, sans-serif; 
+    }
+
+/* 15. H3 dentro da div */
+div h3 {
+     color: blue; 
+    }
+
+/* 16. Divs com cores */
+#vermelha {
+     background-color: red; 
+     color: white;
+     padding: 15px;
+     margin: 10px 0;
+     border-radius: 10px;
+    }
+
+#verde { 
+    background-color: green; 
+    color: white; 
+    padding: 15px; 
+    margin: 10px 0; 
+    border-radius: 10px;
+}
+
+#azul { 
+    background-color: blue; 
+    color: white; 
+    padding: 15px; 
+    margin: 10px 0;
+    border-radius: 10px;
+ }
+
+

@@ -1,163 +1,75 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:white(127, 178, 223);
-    margin: 0;
-    padding: 0;
-}
-
-#Paragrafos{
-   margin:15px 0px;
-   padding: 10px 15px;
-   color: blue;
-   border-radius: 10px;
-}
-
-#titulo{
-    color: yellow;
-    margin: 20px 0;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-
-#Subtitulo{
-  color: green;
-  margin: 15px 0;
-  padding: 10px;
-  border-radius: 10px;
-}
-
-
-li{
-  color: red;
-  margin: 5px 0;
-  padding: 10;
-  border-radius: 10px;
-}
-
-
-
-#caixa1 { 
-    color: lightblue; 
-    margin: 10px 0; 
-    padding: 8px; 
-    border-radius: 10px;
-}
-
-#caixa2 { 
-    color: lightpink; 
-    margin: 10px 0; 
-    padding: 8px; 
-    border-radius: 10px;
-}
-
-#Parágrafo-com-mesma-família-de-fonte{ 
-    color: lightpink; 
-    margin: 10px 0; 
-    padding: 8px; 
-    border-radius: 10px;
-}
-
-#negrito{ 
-    color: lightpink; 
-    margin: 10px 0; 
-    padding: 8px; 
-    border-radius: 10px;
-    font-weight: bold;
-}
-
-/* 7. Texto centralizado */
-#centralizado { 
-    text-align: center; 
-    margin: 20px 0; 
-    padding: 10px;
-    border-radius: 10px;
-}
-
-/* 8. Links diferentes */
-#google { 
-    margin-right: 15px; 
-    color: orange; 
-    padding: 10px;
-    border-radius: 10px;
-}
-
-#youtube {
-     color: purple;
- }
-
-/* 9. Classes de estilo de texto */
-.negrito { 
-    font-weight: bold; 
-    color: black; 
-    margin: 5px 0; 
-    padding: 15px;
-    border-radius: 10px;
-}
-
-.italico { 
-    font-style: italic; 
-}
-
-.sublinhado { 
-    text-decoration: underline; 
-}
-
-/* 10. Imagens */
-img { 
-    border: 3px solid black; 
-    margin: 10px; 
-    padding: 5px; 
-    border-radius: 10px;
-}
-
-/* 11. Parágrafo dentro da div */
-div p { 
-    color: blue; font-weight: bold; 
-
-}
-
-/* 12. Dois parágrafos diferentes */
-.primeiro {
-     color: blue; 
-    }
-.segundo { 
-    color: green; 
+     body {
+      font-family: Arial, sans-serif;
+      background: #f1f5f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30px;
     }
 
-/* 13. Fonte Arial */
-#tituloArial {
-     font-family: Arial, sans-serif; 
+    .Tabela1 {
+      background: #1e0aa5;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      padding: 20px;
+      max-width: 900px;
+      width: 100%;
     }
 
-/* 15. H3 dentro da div */
-div h3 {
-     color: blue; 
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #ffffff;
     }
 
-/* 16. Divs com cores */
-#vermelha {
-     background-color: red; 
-     color: white;
-     padding: 15px;
-     margin: 10px 0;
-     border-radius: 10px;
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: center;
     }
 
-#verde { 
-    background-color: green; 
-    color: white; 
-    padding: 15px; 
-    margin: 10px 0; 
-    border-radius: 10px;
-}
+    th, td {
+      border: 1px solid #cbd5e1;
+      padding: 12px;
+    }
 
-#azul { 
-    background-color: blue; 
-    color: white; 
-    padding: 15px; 
-    margin: 10px 0;
-    border-radius: 10px;
- }
+    th {
+      background: #001d60;
+      color: #f8fafc;
+      font-size: 16px;
+    }
 
+    td {
+      background: #f8fafc;
+      font-size: 15px;
+    }
 
+    tr:nth-child(even) td {
+      background: #f1f5f9;
+    }
+    
+    /* Responsivo para celular */
+    @media (max-width: 700px) 
+      table, thead, tbody, th, td, tr 
+        display: block;
+       }
+      th {
+        position: sticky;
+        top: 0;
+      }
+      tr {
+        margin-bottom: 15px;
+      }
+      td {
+        text-align: left;
+        padding-left: 50%;
+        position: relative;
+      }
+      td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 15px;
+        font-weight: bold;
+        color: #334155;
+      }

@@ -1,0 +1,55 @@
+* {
+      font-family: Arial, sans-serif;
+      background-color: #a5c0ffc7;
+
+    }
+
+    .Blog {
+      background-color: #8978f57b;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+    }
+
+    h1 {
+      text-align: left;
+      color: #3c035b;
+    }
+
+    table {
+      border-collapse: collapse;
+      text-align: left;
+    }
+    footer {
+    text-align: left;
+    background-color: #000000;
+    color: #ffffff;
+    }
+
+
+nav a {
+  color: rgba(111, 0, 255, 0.936);
+  margin:  10px;
+  text-decoration: none;
+
+}
+
+h2 {
+  border: none;
+  height: 4px;              
+  background-color: #7c4dff; 
+  margin: 20px 0;
+}
+
+article {
+  color: #1b1818;
+  margin-bottom: 15px;
+  border: #000000;
+}
+
+h2{
+  background-color: #6e65ac;
+  border-radius: 15px;
+  padding: 25px;
+}
+

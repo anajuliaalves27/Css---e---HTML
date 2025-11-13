@@ -1,0 +1,104 @@
+
+p {
+  color: rgb(27, 27, 245);
+}
+
+#titulo-principal {
+  color: yellow;
+}
+
+.subtitulo {
+  color: green;
+}
+
+ul li {
+  color: red;
+}
+
+#caixa1 {
+  background-color: lightblue;
+}
+#caixa2 {
+  background-color: lightcoral;
+}
+
+p, h2, h3 {
+  color: purple;
+}
+
+#paragrafo-centralizado {
+  text-align: center;
+}
+
+#link-google {
+  color: orange;
+}
+#link-youtube {
+  color: crimson;
+}
+
+.negrito {
+  font-weight: bold;
+}
+
+img {
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+div p {
+  color: brown;
+}
+
+.primeiro {
+  color: teal;
+}
+.segundo {
+  color: darkred;
+}
+
+#titulo-fonte {
+  font-family: Arial, sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.underline {
+  text-decoration: underline;
+}
+
+div h3 {
+  color: darkblue;
+}
+
+#div1 {
+  background-color: red;
+}
+#div2 {
+  background-color: green;
+}
+#div3 {
+  background-color: blue;
+}
+
+.destaque {
+  color: orange;
+}
+
+#caixa-colorida {
+  background-color: lightgreen;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+.sublinhado {
+  text-decoration: underline;
+}
+
+h1, p, a {
+  color: darkmagenta;
+}
